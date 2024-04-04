@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex column main-container">
-    <q-img class="img-btn" @click="fraseApp()" src="/src/assets/quotelogo.svg"/>
+    <q-img class="img-btn" @click="fraseApp()" src="/media/quotelogo.svg"/>
     <p class="text-center main-text">
       "{{ arrayFrases[arrayPosition] }}"
     </p>
@@ -47,7 +47,7 @@ function fraseApp() {
   text-align: center;
 }
 .img-btn {
-  margin: 50px auto;
+  margin: 75px auto;
   height: 50px;
   width: 50px;
   cursor: pointer;
