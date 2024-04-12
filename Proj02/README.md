@@ -1,6 +1,6 @@
 # Instagram (proj02)
 
-Projeto simulando o Instagram 
+Projeto simulando o Instagram
 
 ## Install the dependencies
 ```bash

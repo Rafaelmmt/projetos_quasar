@@ -1,9 +1,11 @@
 <template>
   <q-page class="flex">
-    <div class="container-top full-width q-pt-lg">
-      <TopBar/>
-      <q-separator class="full-width q-mt-sm"/>
-    </div>
+    <!--
+      <div class="container-top full-width q-pt-lg">
+        <TopBar/>
+        <q-separator class="full-width q-mt-sm"/>
+      </div>
+    -->
     <q-scroll-area
       horizontal
       :visible="false"
@@ -23,16 +25,18 @@
 
     <Posts :items="posts"/>
 
-    <div class="container-bottom full-width q-pb-lg">
-      <q-separator class="full-width q-mb-sm"/>
-      <BottomBar/>
-    </div>
+    <!--
+      <div class="container-bottom full-width q-pb-lg">
+        <q-separator class="full-width q-mb-sm"/>
+        <BottomBar/>
+      </div>
+    -->
   </q-page>
 </template>
 
 <script>
-import TopBar from 'src/components/TopBar/Index';
-import BottomBar from 'src/components/BottomBar/Index';
+// import TopBar from 'src/components/TopBar/Index';
+// import BottomBar from 'src/components/BottomBar/Index';
 import Posts from 'src/components/Posts/Index';
 
 export default {

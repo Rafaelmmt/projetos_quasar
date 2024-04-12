@@ -1,9 +1,12 @@
 <template>
   <div class="full-width row justify-around">
-    <q-img @click="goTo('main')" width="24px" src="../assets/house.svg"/>
-    <q-img width="30px" src="../assets/search.svg"/>
-    <q-img width="30px" src="../assets/add.svg"/>
-    <q-img width="34px" src="../assets/heart.svg"/>
+    <q-img src="/media/house.svg" ></q-img>
+    <q-img src="/media/search.svg" ></q-img>
+    <q-img src="/media/add.svg" ></q-img>
+    <q-img width="29px" src="/media/heart.svg" ></q-img>
+    <q-avatar>
+      <img src="https://cdn.quasar.dev/img/avatar.png">
+    </q-avatar>
   </div>
 </template>
 
@@ -16,5 +19,12 @@ defineOptions({
 <style lang="scss" scoped>
 .q-img {
   cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+.q-avatar{
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
 }
 </style>

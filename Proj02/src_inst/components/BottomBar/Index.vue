@@ -1,12 +1,16 @@
 <template>
   <div class="full-width row justify-around">
-    <q-img  @click="goTo('main')" width="24px" src="../../assets/house.svg" ></q-img>
-    <q-img width="30px" src="../../assets/search.svg" ></q-img>
-    <q-img width="30px" src="../../assets/add.svg" ></q-img>
-    <q-img width="34px" src="../../assets/heart.svg" ></q-img>
+    <!--
+      <q-img  @click="goTo('main')" width="24px" src="../../assets/house.svg" ></q-img>
+      <q-img width="30px" src="../../assets/search.svg" ></q-img>
+      <q-img width="30px" src="../../assets/add.svg" ></q-img>
+      <q-img width="34px" src="../../assets/heart.svg" ></q-img>
+    -->
+
     <q-avatar size="28px" class="cursor-pointer" @click="goTo('my-area')">
       <img :src="user.avatar || 'https://static.wikia.nocookie.net/caramella-girls/images/9/99/Blankpfp.png'">
     </q-avatar>
+
   </div>
 </template>
 
